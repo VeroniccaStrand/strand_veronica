@@ -1,0 +1,65 @@
+.skillGrid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(50px, 100px));
+  gap: 0.5rem;
+  padding: 2rem;
+}
+
+.skillBlock {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  position: sticky;
+  text-align: center;
+  justify-content: center;
+
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill1 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.skill2 {
+  grid-column: 4 / 4;
+  grid-row: 2 / 3;
+}
+
+.skill3 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.skill4 {
+  grid-column: 5 / 6;
+  grid-row: 1 / 2;
+}
+
+.skill5 {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+
+.skill6 {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+
+.skill7 {
+  grid-column: 5/ 5;
+  grid-row: 4 / 5;
+}
+
+.skill8 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+.skill9 {
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
+}
