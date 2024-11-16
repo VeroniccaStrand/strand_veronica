@@ -10,4 +10,5 @@ export const skills = [
   { title: 'SQL' },
   { title: 'noSQL' },
   { title: 'Typescript' },
+  { title: 'Spring boot' },
 ];
